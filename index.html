@@ -2,52 +2,110 @@
 <html>
 <head>
   <title>Nobel Peace Prize Java Project</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
       margin: 0;
       padding: 40px;
-      color: #222;
+      color: #e2e8f0;
     }
+
     .card {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      background: white;
+      background: #1e293b;
       padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+      text-align: center;
     }
+
     h1 {
       margin-top: 0;
+      font-size: 32px;
     }
+
+    p {
+      color: #94a3b8;
+    }
+
+    .cat-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .cat-row img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: 0.2s;
+    }
+
+    .cat-row img:hover {
+      transform: scale(1.1) rotate(2deg);
+    }
+
     a {
       display: block;
-      padding: 12px;
-      margin: 10px 0;
-      background: #eef2ff;
-      border-radius: 10px;
-      color: #1d4ed8;
+      padding: 14px;
+      margin: 12px 0;
+      background: #0f172a;
+      border-radius: 12px;
+      color: #38bdf8;
       text-decoration: none;
       font-weight: bold;
+      transition: 0.2s;
     }
+
     a:hover {
-      background: #dbe4ff;
+      background: #1d4ed8;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    h2 {
+      margin-top: 30px;
     }
   </style>
 </head>
+
 <body>
   <div class="card">
-    <h1>Hi lilly I made this page with AI lol</h1>
-    <p>This site displays the exported Java source code for my CS 112 Lab 15 project.</p>
 
-    <h2>Project Files</h2>
+    <h1>🐱 Nobel Peace Prize Java Project 🐱</h1>
+    <p><i>Hi Lilly, I made this page with AI lol</i></p>
+
+    <!-- CAT ROW -->
+    <div class="cat-row">
+      <img src="https://placekitten.com/200/200">
+      <img src="https://placekitten.com/201/200">
+      <img src="https://placekitten.com/200/201">
+    </div>
+
+    <p>This site displays my CS 112 Lab 15 project (with cats for emotional support).</p>
+
+    <h2>📂 Project Files</h2>
+
     <a href="edu/miracostacollege/cs112/lab15_nobelpeaceprize/controller/Controller.java.html">Controller.java</a>
     <a href="edu/miracostacollege/cs112/lab15_nobelpeaceprize/model/Model.java.html">Model.java</a>
     <a href="edu/miracostacollege/cs112/lab15_nobelpeaceprize/model/NobelLaureate.java.html">NobelLaureate.java</a>
     <a href="edu/miracostacollege/cs112/lab15_nobelpeaceprize/view/MainScene.java.html">MainScene.java</a>
     <a href="edu/miracostacollege/cs112/lab15_nobelpeaceprize/view/View.java.html">View.java</a>
     <a href="edu/miracostacollege/cs112/lab15_nobelpeaceprize/view/ViewNavigator.java.html">ViewNavigator.java</a>
+
+    <!-- MORE CATS -->
+    <div class="cat-row">
+      <img src="https://placekitten.com/210/200">
+      <img src="https://placekitten.com/200/210">
+      <img src="https://placekitten.com/205/200">
+    </div>
+
   </div>
 </body>
 </html>
